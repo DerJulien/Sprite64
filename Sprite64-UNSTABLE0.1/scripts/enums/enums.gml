@@ -1,0 +1,11 @@
+enum DATA {
+	SPRITE,
+	X,
+	Y,
+	IMG_X,
+	IMG_Y,
+	IMG_IND,
+	IMG_NUM,
+	COL,
+	ALPHA
+}
