@@ -1,8 +1,8 @@
 {
-    "id": "8a918b29-83c5-4352-8a63-c608abbcd138",
+    "id": "6a3a77c7-7a18-4469-96db-2b514c116e58",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "sprite_draw_stacked",
+    "name": "stacked_object_initialise",
     "IsCompatibility": false,
     "IsDnD": false
 }
