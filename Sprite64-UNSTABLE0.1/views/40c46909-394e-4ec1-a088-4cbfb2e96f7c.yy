@@ -6,8 +6,7 @@
     "children": [
         "493f62e1-f26c-4073-9597-fb63d8dce485",
         "c7786464-7bb6-4d7c-86dd-fd812f90dc4a",
-        "19891b59-8246-48e3-a72c-e35e2f6aa750",
-        "582374fe-e601-41d7-b924-00131620ee46"
+        "19891b59-8246-48e3-a72c-e35e2f6aa750"
     ],
     "filterType": "GMScript",
     "folderName": "SPRITE64",

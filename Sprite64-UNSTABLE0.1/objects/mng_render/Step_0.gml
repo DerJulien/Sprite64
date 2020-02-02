@@ -1,10 +1,6 @@
-var i = -1; repeat (ds_list_size(list_render)) { i++; 
-	var entry = list_render[| i];
-	if (entry == undefined || instance_exists(entry) == false) { continue; }
-	
-	var entry_lookup = [entry.sprite_index, map_params[? entry]];
-	if (map_lookup[? entry_lookup] == undefined) { 
-		stacked_render(entry_lookup); 
-	}
+repeat (ds_stack_size(stack_render)) {
+	var entry_lookup = ds_stack_pop(stack_render);	
+	var entry = entry_lookup[0]; //sprite index
+	var params = entry_lookup[1]; //parammap
 	
 }

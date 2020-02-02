@@ -1,20 +1,20 @@
 var enable = argument[0];
-var pos = ds_list_find_index(mng_render.list_render,id);
+var pos = ds_list_find_index(mng_render.list_draw,id);
 
 switch (enable) {
 	case true:
 		if (pos != -1) { exit; }
-		ds_list_add(mng_render.list_render,id);
+		ds_list_add(mng_render.list_draw,id);
 	break;
 	case false:
 		if (pos == -1) { exit; }
 		if (is_array(pos)) { 
-			var i = -1; repeat (array_length_1d(pos)) { i++;
-				ds_list_delete(mng_render.list_render,pos[i]);
+			var i = array_length_1d(pos); repeat (array_length_1d(pos)) { i--;
+				ds_list_delete(mng_render.list_draw,pos[i]);
 			}
 		}
 		else {
-			ds_list_delete(mng_render.list_render,pos);
+			ds_list_delete(mng_render.list_draw,pos);
 		}
 	break;
 }

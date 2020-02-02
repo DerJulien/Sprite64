@@ -1,4 +1,10 @@
-enum PM_INI_OSTACKED {
+enum PM_DRAW_OSTACKED {
 	PRECISION,
-	STATIC
+	DYNAMIC,
+	
+	I_IND,
+	I_NUM,
+	
+	I_COL,
+	I_ALPHA
 }
