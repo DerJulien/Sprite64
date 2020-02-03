@@ -1,8 +1,8 @@
 {
-    "id": "a62c2502-50de-4285-b9ba-b2130dcb8e14",
+    "id": "af7980ea-a76f-40b5-8ed5-26b756a450ec",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "stacked_render",
+    "name": "__stacked_enums",
     "IsCompatibility": false,
     "IsDnD": false
 }

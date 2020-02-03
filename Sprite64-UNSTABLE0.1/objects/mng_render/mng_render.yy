@@ -5,7 +5,7 @@
     "name": "mng_render",
     "eventList": [
         {
-            "id": "b37887e2-2174-4e79-a344-ede8a10b8def",
+            "id": "98ea0db0-e018-44f4-b352-3387a04308af",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "5274d82b-000d-4cea-a0d9-ad9265d60a0c"
         },
         {
-            "id": "0314fa01-5b5f-4705-8f17-ff849045a5a7",
+            "id": "8b3b294c-3ea2-4e1f-a83f-8afb335373cd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,13 +25,13 @@
             "m_owner": "5274d82b-000d-4cea-a0d9-ad9265d60a0c"
         },
         {
-            "id": "5b6e13bd-4a8b-4135-85a5-575286edf82a",
+            "id": "2b94f04f-970f-481f-91c8-7d79064c5755",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 8,
             "m_owner": "5274d82b-000d-4cea-a0d9-ad9265d60a0c"
         }
     ],

@@ -1,0 +1,4 @@
+enum PM_INI_OSTACKED {
+	PRECISION,
+	DYNAMIC
+}

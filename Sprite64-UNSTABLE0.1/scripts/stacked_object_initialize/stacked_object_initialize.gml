@@ -2,7 +2,7 @@
 /*
 	//using argmaps : 
 	
-	var params = PMD_DRAW_OSTACKED;
+	var params = PMD_INI_OSTACKED;
 	
 		//changing draw parameters : 
 		//params[? PM_DRAW_OSTACKED.PRECISION] = 360/<step>
@@ -15,15 +15,8 @@
 		//	the dynamic parameter changes the method used to render your sprite
 		//	it is recommended to use false for static objects such as environmental objects
 		//	it is recommended to use true for objects that turn a lot or have animations such as players or enemies
-		//params[? PM_DRAW_OSTACKED.I_(IND/NUM/COL/ALPHA)] = <int/float>
-		//	these are the standard draw parameters : 
-		//		image 
-		//		  index  : leave this at default if your sprite isnt dynamic
-		//		  number : leave this at default if your sprite isnt dynamic
-		//		  color
-		//		  alpha
-	
-	stacked_object_set_draw_params(params);
+		
+	stacked_object_initialize(params);
 	
 	NOTE :
 	initialising this in this specific format is mandatory for macro functionality.
@@ -33,10 +26,10 @@ var arg_map = argument[0];
 var __id = argument_count > 1 ? argument[1] : id;
 
 if (!is_real(arg_map) || !ds_exists(arg_map, ds_type_map)) { 
-	show_message("Wrong type of argument provided in: \nstacked_object_set_draw_params\nthrown by: " + 
-				  object_get_name(id.object_index)); 
+	raise(ERR_WRONG_PARAMS);
 	exit; 
 } 
 
+__id.visible = false;
 mng_render.map_params[? __id] = arg_map;
 return arg_map

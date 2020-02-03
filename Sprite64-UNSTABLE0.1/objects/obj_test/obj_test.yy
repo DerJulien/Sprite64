@@ -5,7 +5,7 @@
     "name": "obj_test",
     "eventList": [
         {
-            "id": "89852800-2c5d-49f8-aaf0-e3d9f712779e",
+            "id": "31facf94-2490-43ee-b058-3b62d1db8e42",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

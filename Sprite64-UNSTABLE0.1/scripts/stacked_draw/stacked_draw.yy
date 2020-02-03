@@ -1,8 +1,8 @@
 {
-    "id": "1e07a6bc-9571-4860-aa31-15d86d142890",
+    "id": "c9918be6-1076-4b9c-903b-1809f408fbbe",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "__stacked_push_draw",
+    "name": "stacked_draw",
     "IsCompatibility": false,
     "IsDnD": false
 }

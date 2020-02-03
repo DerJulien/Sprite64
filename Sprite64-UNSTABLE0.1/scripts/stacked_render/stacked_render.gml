@@ -1,2 +1,4 @@
-var entry_lookup = argument[0];
-ds_stack_push(mng_render.stack_render,entry_lookup);
+var entry = argument[0];
+trace("rendering");
+mng_render.map_lookup[? entry.sprite_index] = -1;
+return;
